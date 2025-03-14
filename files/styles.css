@@ -74,11 +74,7 @@ form {
     width: 35%;
     margin: 1rem auto 0 auto;
 }
-/*
-label {
-    text-align: center;
-}
-*/
+
 [type='text'] {
     height: 2rem;
     margin: .7rem 0;
@@ -95,12 +91,7 @@ label {
     padding: 1rem 0 0 0;
     gap:.5rem;
 }
-/*
-.validationResults {
-    text-align: center;
-    font-size: 1.3rem;
-}
-*/
+
 .validationResults,label {
     text-align: center;
     font-size: 1.3rem;
@@ -179,7 +170,9 @@ ul {
 footer {
     padding: 1rem 0;
     text-align: center;
-    background-color: rgba(240, 248, 255, 0.742);
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media (width < 720px) {
